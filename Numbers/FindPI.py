@@ -2,8 +2,6 @@
 #Pi is calculated using the Chudnovsky algorithm
 # from https://en.wikipedia.org/wiki/Chudnovsky_algorithm
 
-
-
 import decimal
 
 def Find_pi(n):
@@ -24,7 +22,7 @@ def Find_pi(n):
 
 def main():
 
-    n = int(input("Please enter the number of decimals to calculate PI to: "))
+    n = int(input("Please enter the number of decimals to calculate pi to: "))
     print(Find_pi(n))
 
 if __name__ == '__main__':
